@@ -89,8 +89,11 @@ public class PVCommand implements CommandExecutor {
                     )
 
             ) {
-                /* return here
-                * */
+                /* Command isn't [all/playerName] */
+
+                p.sendMessage("\247c/pv reset [player, all]");
+
+                return true;
 
             }
         }
